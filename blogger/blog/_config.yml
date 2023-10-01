@@ -102,4 +102,6 @@ theme: hexo-theme-archer
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repo: 'https://github.com/MiruOrange/MiruBlog.github.io.git'
+  branch: main
